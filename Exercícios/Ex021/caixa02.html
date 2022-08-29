@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:rgb(154, 168, 182);
+            margin:0px;
+        }
+
+        h1{
+            font-size: 3em;
+            color: aliceblue;
+        }
+
+        h2{
+            color: slategray;
+        }
+
+        header{
+            background-color: black;
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+
+        }
+
+        header > nav > a{
+            color: aliceblue;
+            text-decoration: none;
+            font-weight: bolder;
+            margin: 0% 3% 0% 3%;
+        }
+
+        nav{
+            background-color: slategray;
+            margin: 5px;
+            box-shadow: 2px 2px 4px rgba(154, 183, 198, 0.651);
+        }
+
+        header > nav > a:hover{
+            color: aquamarine;
+            text-decoration:underline;
+        }
+
+        main{
+            background-color: azure;
+            padding: 10px;
+            border-radius: 10px 40px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.475) ;
+            margin: 20px;
+        }
+
+        main > section > article > aside{
+            text-align: right;
+            font-size: 0.6em;
+            font-weight: lighter;
+            color: slategray;
+        }
+
+        #assuntos{
+            text-align: center;
+        }
+
+        #noticias{
+            width: 60%;
+        }
+
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            font-weight: lighter;
+            padding: 5px;
+            margin: 0%;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 200px;
+            width: 200px;
+            background-color: aquamarine;
+            margin: 20px auto;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Noticias Esportes Games</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit ad doloremque reprehenderit iste iusto ipsa provident facere, laudantium itaque omnis quos aspernatur exercitationem qui expedita? Sequi autem sed laborum! Mollitia.</p>
+                <aside><p>Escrito por jose da silva camerino</p></aside>
+            </article>
+            <article>
+                <h2>Noticia sobre Maceió</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam corrupti culpa amet temporibus nulla beatae placeat. Suscipit sed similique iure quo soluta culpa harum sit. Rem saepe repudiandae nulla nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores cumque iusto dolorum, beatae ullam alias hic nihil magni molestiae est mollitia, delectus in, sapiente eveniet eligendi dolor id! Expedita, ratione?</p>
+                <aside><p>Escrito por maria rita</p></aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Fabricio</p>
+    </footer>
+
+    <div id="bola"></div>
+    
+</body>
+</html>

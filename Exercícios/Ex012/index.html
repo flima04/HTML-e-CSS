@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video no site</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu proprio servidor.</p>
+
+    <video autoplay controls width="300px" poster="midia/poster01.png" loop>
+        <source src="midia/video01.mp4" type="video/mp4">
+        <p>Seu navegador não é capaz de reproduzir esse vídeo.</p> <!--Usando essa forma de adicionar midias, se o primeiro comando nao for possivel, ele executa o segundo-->
+    </video>
+
+    <h1>Inserindo videos do youtube</h1>
+    <p>Este video está hospedado no youtube e incorporado ao meu site.</p>
+
+    
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/3hng-hmSv2Y?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" title="Incorporação de vídeos externos - @Curso em Vídeo HTML5 e CSS3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+
+    
+</body>
+</html>
