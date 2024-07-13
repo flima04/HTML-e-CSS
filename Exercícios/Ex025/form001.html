@@ -6,13 +6,20 @@
     <title>Formulário 1</title>
 </head>
 <body>
-    <h1>Meu Primeiro Formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
-        <p><label for="name">Nome</label> 
-            <input type="text" name="name" id="name"></p>
-        <p><label for="surname">Sobrenome</label> 
-            <input type="text" name="surname" id="surname"></p>
-        <p><input type="submit" value="Enviar"></p>
+    <h1>Faça seu login</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="user">Usuário</label><br> 
+            <input type="text" name="user" id="user" required minlength="5" maxlength="15" size="30" autocomplete="username" placeholder="digite seu usuário">
+        </p>
+        <p>
+            <label for="password">Senha</label><br>
+            <input type="password" name="password" id="password" required minlength="8" maxlength="12" size="30" autocomplete="current-password" placeholder="mín. 8 caracteres">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>
 </body>
 </html>
