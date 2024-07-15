@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario com range, color e upload de arquivo</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Perfil</legend>
+            <p>
+                <input type="color" name="color" id="color"><label for="color">Selecione sua cor de fundo</label><br>  
+            </p>
+            <p>
+                Seus interesses:<br>
+                <input type="range" name="music" id="music" min="0" max="5"><label for="music">Música</label><br>
+                <input type="range" name="paint" id="paint" min="0" max="5"><label for="paint">Pintura</label><br>
+                <input type="range" name="cinema" id="cinema" min="0" max="5"><label for="cinema">Cinema</label><br>
+            </p>
+            <p>
+                Foto de perfil:<br>
+                <input type="file" name="photo" id="photo">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
