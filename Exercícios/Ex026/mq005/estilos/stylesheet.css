@@ -45,8 +45,6 @@ header > h1 {
 
 menu {
     display: none;
-    background-color: rgb(63, 63, 63);
-
 }
 
 menu > ul {
@@ -56,11 +54,12 @@ menu > ul {
 menu > ul > li > a {
     text-align: center;
     text-decoration: none;
+    background-color: rgb(63, 63, 63);
     color: white;
     display: block;
     margin: auto;
     padding: 10px;
-    border-top: 1px solid rgb(77, 77, 77);
+    border: 1px solid rgb(77, 77, 77);
 }
 
 menu > ul > li > a:hover {
